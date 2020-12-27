@@ -24,7 +24,7 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-            Players DeclanRice = new Players("Declan Rice", "Midfielder", "West Ham");
+            Players DeclanRice = new Players("Declan Rice", "West Ham", "Midfielder");
             Console.WriteLine(DeclanRice.PlayerDescription());
         }
 
